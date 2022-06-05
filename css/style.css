@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+
+.navbar-brand{
+    font-family: 'Black Han Sans', sans-serif;
+}
+/* Sección Banner Encabezado */
+
+.imgBanner{
+    width: 100%; 
+    height: 400px; 
+    object-fit: cover;
+}
+
+/* Sección ventajas */
+
+.sectionVentajas{
+    background-color: #f8f9fa;
+}
+
+.card-header{
+    background: none;
+}
+
+.cardVentajas{
+    border:none;
+    box-shadow: 0px 0px 15px gray;
+}
+/* sección seguridad */
+
+.sectionSeguridad{
+    background-color: #f8f9fa;
+}
+
+.card-header{
+    background: none;
+}
+.cardSeguridad{
+    border:none;
+    background-color: #f8f9fa;
+}
+
+
+/* Estilos seccion APP */
+
+/* @media screen and (orientation: portrait) and (max-width: 320px) {
+    * {
+      margin: 0;
+      padding: 0;
+    } */
+
+/* Estilos del footer */
+
+.contenedorIconos{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.fa-brands{
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+.botonFooter{
+    background-image: url(../img/badge-apple-store.svg);
+}
+
+
+/* Página Precios */
+
+/* Sección Precios */
+
+.sectionPrecios{
+    background-color: #f8f9fa;
+}
+
+/* Página Seguridad */
+
+/* Sección Precios */
+
+.sectionSeguridad{
+    background-color: #f8f9fa;
+}
+
+.sectionTips{
+    background-color: #f8f9fa;
+}
+
+
+
+@media all and (max-width: 575.98px){
+
+.bannerRollingBank{
+    height: 50px;
+    object-fit: cover;
+    
+}
+.elementoPrecio{
+    text-align: center;
+}
+.elementoSeguridad{
+    text-align: justify;
+}   
+.elementoSomos{
+    text-align: justify;   
+}
+.elementoPrecioParrafo{
+    text-align: justify;    
+}
+}
+
+
+@media all and (max-width: 768px){
+
+    .bannerRollingBank{
+        height: 100px;
+        object-fit: cover;
+    
+        }
+        .elementoPrecio{
+            text-align: center;
+        }
+        .elementoSeguridad{
+            text-align: justify;
+        }   
+        .elementoSomos{
+            text-align: justify;   
+        }
+        .elementoPrecioParrafo{
+            text-align: justify;    
+        }
+    }
+
+@media all and (max-width: 992px){
+
+    .bannerRollingBank{
+        height: 250px;
+        object-fit: cover;
+    
+        }
+
+}
+
+@media all and (max-width: 1200px){
+
+    .bannerRollingBank{
+        height: 400px;
+        object-fit: cover;
+    
+        }
+}
+
+@media all and (min-width: 1201px){
+
+    .bannerRollingBank{
+        height: 600px;
+        object-fit: cover;
+    
+        }
+}
